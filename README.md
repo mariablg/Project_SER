@@ -1,3 +1,3 @@
 # Project_SER
-Automatic speech recognition for emotion detection using machine learning
+Automatic speech recognition for emotion detection using machine learning.
 This project represents an automatic voice emotion recognition system based on machine learning techniques. The program uses the Python language and the RAVDESS dataset to identify eight different emotional states. The process begins by extracting MFCC acoustic features from audio files using the librosa library. The actual classification is performed by a Multi-Layer Perceptron neural network that achieved an accuracy of sixty-one percent. The user can interact with the model through a simple graphical interface developed in Gradio. The system allows loading an audio file and instantly displays the detected emotion along with a suggestive emoji. All technical details about the network architecture and data processing can be found in the attached PDF documentation.
